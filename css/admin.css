@@ -1,0 +1,94 @@
+
+ .font1{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;}
+	
+.complaintButtons{
+	position: relative;
+	margin-top: 100px;
+  	color: white; 
+  	cursor: pointer;  
+  	width: 20%; 
+  	display: block;
+}
+
+.complaintButtons button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.complainButtons button:hover {
+  background-color: #3e8e41;
+}
+	
+.button{
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.4s;
+		cursor: pointer;
+	}
+		
+.buttonA{
+		background-color: black;
+		color: cyan;
+		border: 2px solid #00021c}
+		
+.buttonA:hover {
+			background-color: #001285;
+			color:white;
+		}
+
+.img{
+	display: block;
+	float: right;
+	border-radius: 4px;
+	margin-top: -280px;
+	margin-right: 1000px;
+	width: 80px;}
+	
+.para{
+	color:black;
+	margin-top: -280px;
+	font-size: 20px;
+	width: 50%;
+	margin-right: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: none;
+	text-align: justify;
+	float: right;}
+	
+.title{
+	color: #3a00db75;
+	float: right;
+	margin-top: -400px;
+	margin-right: 470px;
+	font-size: 40px;
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;}
+
+
+
+	.app {
+		position: relative;
+		float: left;
+		border: solid black 1px;
+		margin-bottom: 20px;
+	}
+
+
+	.Reviews {
+		position: relative;
+		float: left;
+		border: solid black 1px;
+		margin-right: 20px;
+	}
+ /* {
+		float: left;
+		position: relative;
+		padding-top: 10px;
+	} */

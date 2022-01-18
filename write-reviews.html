@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>write reviews</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/temp.css">
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+	<link rel="stylesheet" type="text/css" href="css/write a review.css">
+	
+	
+</head>
+<body>
+	<header>
+		<img src="images/xlogo.png" class="logo"  alt="Logo">
+		<h3 class="font1" style="color: black; font-size: 20px; position: absolute; top: 90px; left: -40px;">your app marketplace...</h3>
+		<button class="log-reg-btn" style="position: absolute; top: 80px; right: 270px; background-color: #333;"><span>Login</span></button>
+		<button class="log-reg-btn" style="position: absolute; top: 80px; right: 110px; background-color: #0276bd"><span>Register</span></button>
+        <img src="images/user.png" class="user"  alt="user" style="position: absolute; top: 85px; right: 10px">
+        
+	<!-- menu bar -->
+
+    <div class="menu-bar">
+        <a href="#home"><img src="images/home2.jpg" style="width: 15px; height: 15px;"> Home</a>
+        <a href="#top charts">Top Charts</a>
+        <a href="#new releases">New Releases</a>
+        
+        <!-- search bar -->
+        <button type="submit" class="search-btn"><img src="images/search.jpg" style="width: 28px; height: 28px;"></button>
+        <input type="text" name="search" placeholder="Search Here...">
+       <!-- search bar end -->
+
+        <div class="dropdown">
+          <button class="drop-btn"><img src="images/downarrow.jpg" style="width: 15px; height: 15px;"> Categories</button>
+          <div class="dropdown-content">
+            <div class="row">
+
+                <div class="category">
+                  <a href="apps.html">Communication</a>
+                  <a href="#">Entertainment</a>
+                  <a href="#">Education</a>
+                  <a href="#">Finance</a>
+                  <a href="#">Health & Fitness</a>
+                  <a href="#">Life Style</a>
+                </div>
+
+
+
+            </div>
+          </div>
+        </div>
+    </div> 
+
+    <!-- side menu -->
+    <div id="sidemenu" class="sidemenu">
+        <a href="javascript:void(0)" class="menu-close-btn" onclick="closeNav()">&times;</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Write a Review</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <button class="menu-btn" onclick="openNav()">&#9776;</button>
+      <script src = "js/sidemenu.js"></script>
+</header>
+
+
+        <h2>Write a Reviews</h2>
+
+        <div class="container">
+            <form action="submitReviews.php" class="reviews" method="POST">
+                  
+                    <label>Name : </label>
+                    <div class ="inputBox">
+                         <input type="text" placeholder="Enter your full name" name="field1" required>                    
+                    </div>
+                                
+                    <label>Email : </label>
+                    <div class ="inputBox">
+                          <input type="text" placeholder="Enter your email" name="field2" required>
+                    </div>
+                  
+                    <label>Subject : </label>
+                    <div class ="inputBox">
+                         <input type="text" name="field3" required>
+                    </div>
+           
+                    <div class ="inputBox-textarea">
+                    <textarea name ="field4" placeholder="Type your reviews here..." cols="50" rows="5" style="resize: none;"  required ></textarea>   
+                    </div>
+    
+       
+            <div class="col">
+                <input type ="submit" value="submit" class="submit" name="sbmt-btn">
+                <!-- <input type="reset " value="Reset" class="reset">  -->
+            </div>
+
+          </form>
+
+         </div>
+
+
+
+    <footer>
+        <hr style="opacity: 0;">
+        <div class="footer" style="margin-top: 150px;">
+        <img src="images/payment.jpg" class="pay-method">
+        <p style="font-family: Arial, Helvetica, sans-serif; text-align: center; padding-top: 35px;">©2020 GoogleSite Terms of Service  Privacy  Developers  About   Google|Location: Sri LankaLanguage: English</p>
+        </div>
+</footer>
+
+
+
+</body>
+</html>

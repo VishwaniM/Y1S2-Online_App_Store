@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>complaints - slide-show</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/temp.css">
+	<link rel="stylesheet" type="text/css" href="css/admin.css">
+	
+	
+	
+</head>
+<body>
+	<header>
+		<img src="images/xlogo.png" class="logo"  alt="Logo">
+		<h3 class="font1" style="color: black; font-size: 20px; position: absolute; top: 90px; left: -40px;">your app marketplace...</h3>
+		<button class="log-reg-btn" style="position: absolute; top: 80px; right: 270px; background-color: #333;"><span>Login</span></button>
+		<button class="log-reg-btn" style="position: absolute; top: 80px; right: 110px; background-color: #0276bd"><span>Register</span></button>
+		<img src="images/user.png" class="user"  alt="user" style="position: absolute; top: 85px; right: 10px">
+	<!-- menu bar -->
+
+    <div class="menu-bar">
+        <a href="admin-reviews.html">Reviews</a>
+        <a href="admin-feedbacks.html">Feedbacks</a>
+        <a href="admin-complaints.html">Complaints</a>
+        
+        <!-- search bar -->
+        <button type="submit" class="search-btn"><img src="images/search.jpg" style="width: 28px; height: 28px;"></button>
+        <input type="text" name="search" placeholder="Search Here...">
+    </div>
+
+	<h3 style="padding-top: 150px;">COMPLAINTS</h3>
+
+
+    <!-- search bar end -->
+</header>
+	
+	<div class="complaintButtons">
+		<button class="button buttonA" onclick="loadData('button1')"><b>Complaint-1</b></button>
+		<button class="button buttonA" onclick="loadData('button2')"><b>Complaint-2</b></button>
+		<button class="button buttonA" onclick="loadData('button3')"><b>Complaint-3</b></button>
+		<button class="button buttonA" onclick="loadData('button4')"><b>Complaint-4</b></button>
+		<button class="button buttonA" onclick="loadData('button5')"><b>Complaint-5</b></button>
+		<button class="button buttonA" onclick="loadData('button6')"><b>Complaint-6</b></button>
+		
+	</div>
+	
+	<br>
+	<br>
+
+		<h1 id="title" class="title"></h1>
+		<img id="img" class="img">
+			<p id="para" class="para"></p>
+			<br><br>
+			<label for="reply" style="position: relative; margin-left: 500px;">Reply:</label>
+			<input type="text" id="reply" name="reply" style="padding: 0px 300px 50px 20px" placeholder="type here..."><br><br>
+			<input type="submit" value="Submit" style="margin-left: 1000px; width: 5%; height: 25px">
+		
+		
+		
+
+	<script src="js/complaint.js"></script>
+		
+
+
+
+
+
+	<footer>
+			<hr style="opacity: 0;">
+			<div class="footer" style="margin-top: 1000px;">
+			<img src="images/payment.jpg" class="pay-method">
+			<p style="font-family: Arial, Helvetica, sans-serif; text-align: center; padding-top: 35px;">©2020 GoogleSite Terms of Service  Privacy  Developers  About   Google|Location: Sri LankaLanguage: English</p>
+			</div>
+	</footer>
+
+
+
+</body>
+</html>
